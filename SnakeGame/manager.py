@@ -9,7 +9,7 @@ New_Board = Board(New_Snake.head, New_Snake.body, New_Snake.tail, New_Snake.food
 
 New_Board.update_board()
 print("Score: %s" % (New_Snake.score) + "  ", end = "")
-print("Recommended size is 124 x 52")
+print("Recommended size is 80 x 27")
 
 speed = float(sys.argv[1])
 
