@@ -1,7 +1,3 @@
-import threading
+from art import *
 
-def printit():
-  threading.Timer(5.0, printit).start()
-  print ("Hello, World!")
-
-printit()
+tprint("art")
